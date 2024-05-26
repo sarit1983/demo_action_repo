@@ -16,8 +16,8 @@ jobs:
 
     - name: Hello World
       run: echo "Hello Sarit"
-      shell: zsh
+      shell: bash
 
     - name: Goodbye 
       run: echo "Goodbye Sarit"
-      shell: zsh
+      shell: bash
