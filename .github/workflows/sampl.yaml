@@ -15,9 +15,9 @@ jobs:
     steps:
 
     - name: Hello World
-      run: echo "Hello Sarit"
+      run: echo "${{ toJSON(github)}}"
       shell: bash
 
     - name: Goodbye 
-      run: echo "Goodbye Sarit"
+      run: echo "${{toJSON(job)}}"
       shell: bash
