@@ -14,17 +14,11 @@ jobs:
     runs-on: ubuntu-latest
     steps:
 
-    - name: Checkout code
+    - name: Hello World
       uses: actions/checkout@v2
+      run: echo "Hello Sarit"
+      shell: zsh
 
-
-    - name: Setup Node.js
-      uses: actions/setup-node@v2
-      with:
-        node-version: '20'
-
-    - name: Install dependencies
-      run: npm install
-
-    - name: Run tests
-      run: npm test
+    - name: Goodbye 
+      run: echo "Goodbye Sarit"
+      shell: zsh
